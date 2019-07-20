@@ -75,14 +75,7 @@
                       </div>
                   </div>
 
-                  <! - - <div class="form-group">
-                      <label  class="col-sm-3 control-label"><?php echo get_phrase('purchase_code');?></label>
-                      <div class="col-sm-9">
-                          <input type="text" class="form-control" name="purchase_code"
-                              value="<?php echo $this->db->get_where('settings' , array('type' =>'purchase_code'))->row()->description;?>"
-                                required>
-                      </div>
-                  </div>-->
+                  
 
                   <div class="form-group">
                     <div class="col-sm-offset-3 col-sm-9">
